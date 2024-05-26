@@ -211,8 +211,8 @@ this.physics.add.overlap(this.sword, this.enemy, this.attackEnemy)
                 this.sword.flipX = false
     }
 else{
-  // this.sword.setPosition(this.player.x-10, )
-  // this.sword.flipX = true
+  this.sword.setPosition(this.player.x-10, this.player.y)
+  this.sword.flipX = true
     }
 if (this.sword.flipX == this){
 this.sword.setRotation(this.sword.rotation - 0.5);
